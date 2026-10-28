@@ -35,6 +35,20 @@ That's it. First build takes ~30–45 seconds; subsequent runs are instant.
 
 To open in Xcode (optional): `open Package.swift` and hit Run.
 
+## Run as a .app
+
+Prefer double-clicking over `swift run`? Build an app bundle:
+
+```bash
+./scripts/bundle.sh
+```
+
+That produces `Gifmator.app` in the repo root. Drag it into `/Applications`, pin it to the Dock, or launch it from Spotlight.
+
+The bundle is unsigned (no Apple Developer account tied to this project), so Gatekeeper may ask you to confirm on the first launch — right-click the app, pick **Open**, and macOS will remember the exception.
+
+Rebuild the bundle any time by re-running the script.
+
 ## Keyboard shortcuts
 
 | Key | Action |

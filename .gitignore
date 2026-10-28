@@ -22,3 +22,7 @@ xcuserdata/
 *.mp4
 *.m4v
 /tmp-scaffold/
+
+# macOS app bundle produced by scripts/bundle.sh (build artifact, not source)
+/Gifmator.app
+/Gifmator.app/
