@@ -26,3 +26,9 @@ xcuserdata/
 # macOS app bundle produced by scripts/bundle.sh (build artifact, not source)
 /Gifmator.app
 /Gifmator.app/
+
+## Icon design sources we don't track
+# Pre-built duplicate of scripts/AppIcon.icns — the committed .icns is rebuilt
+# deterministically from scripts/GifEditor.iconset/ by `iconutil`, so this one
+# stays on disk for the designer's convenience but out of the repo.
+scripts/GifEditor.icns
