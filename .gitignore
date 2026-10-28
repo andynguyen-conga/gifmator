@@ -1,0 +1,24 @@
+## Swift / SwiftPM
+.build/
+.swiftpm/
+DerivedData/
+
+# Package.resolved is intentionally COMMITTED (not ignored) so clones get
+# deterministic dependency versions. We have no SPM deps today, but the moment
+# we add one this file will start carrying weight.
+
+## Xcode (generated when the user opens Package.swift in Xcode)
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+*.xcuserstate
+
+## macOS
+.DS_Store
+
+## Local scratch — test videos and exported GIFs should stay out of the repo
+*.gif
+*.mov
+*.mp4
+*.m4v
+/tmp-scaffold/
